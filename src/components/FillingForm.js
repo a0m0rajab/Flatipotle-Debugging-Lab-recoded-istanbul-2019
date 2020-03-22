@@ -57,8 +57,8 @@ const FillingForm = (props) => {
               type="checkbox"
               value="Pinto Beans"
               name="fillings"
-              checked={ this.props.fillings.includes('Pinto Beans') }
-              onChange={ this.props.handleChange }
+              checked={ props.fillings.includes('Pinto Beans') }
+              onChange={props.handleChange }
             />
             <img src={ require('../images/fillings/pinto-beans.png') } height="100px" width="100px" alt="pinto beans" />
             <label htmlFor="pinto">Pinto Beans</label>

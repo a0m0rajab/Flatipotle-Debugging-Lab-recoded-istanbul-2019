@@ -50,7 +50,7 @@ class Form extends Component {
         <form className="ui form" id="order-form" onSubmit={ this.handleSubmit }>
           <ProteinForm
             protein={ this.state.protein }
-            handleOnChange={ this.handleChange }
+            handleChange={ this.handleChange }
           />
 
           <FillingForm

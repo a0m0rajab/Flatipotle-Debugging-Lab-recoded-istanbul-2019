@@ -27,7 +27,7 @@ class Form extends Component {
     })
   }
 
-  handleChange() {
+  handleChange = event=> {
     const itemType = event.target.name
     const item = event.target.value
 

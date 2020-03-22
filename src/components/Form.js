@@ -15,8 +15,8 @@ class Form extends Component {
   constuctor(){
       super(props)
       state = {
-    ...DEFAULT_STATE
-  }
+         ...DEFAULT_STATE
+            }
   }
 
   handleSubmit= event => {

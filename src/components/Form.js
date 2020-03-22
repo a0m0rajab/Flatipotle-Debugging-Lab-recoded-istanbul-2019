@@ -13,7 +13,7 @@ const DEFAULT_STATE = {
 
 class Form extends Component {
   constuctor(){
-      super(props)
+      super(props);
       state = {
          ...DEFAULT_STATE
             }

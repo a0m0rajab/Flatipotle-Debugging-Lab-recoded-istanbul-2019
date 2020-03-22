@@ -12,7 +12,11 @@ const DEFAULT_STATE = {
 }
 
 class Form extends Component {
-
+  constuctor(){
+      state = {
+    ...DEFAULT_STATE
+  }
+  }
 
   handleSubmit= event => {
     event.preventDefault()

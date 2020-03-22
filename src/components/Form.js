@@ -16,7 +16,7 @@ class Form extends Component {
       super(props);
       state = {
          ...DEFAULT_STATE
-            }
+            };
   }
 
   handleSubmit= event => {
